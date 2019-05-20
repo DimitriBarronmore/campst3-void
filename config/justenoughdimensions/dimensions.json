@@ -1,0 +1,84 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 2,
+      "override": true,
+      "dimensiontype": {
+        "id": 2,
+        "name": "overworld",
+        "suffix": "DIM_0",
+        "keeploaded": true,
+        "worldprovider": "WorldProviderSurface",
+        "require_exact_match": true
+      },
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 0
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP",
+        "generatorVersion": 1
+      }
+    },
+    {
+      "dim": 0,
+      "override": true,
+      "biome": "dimdoors:white_void",
+      "dimensiontype": {
+        "id": 0,
+        "name": "antivoid",
+        "suffix": "_void",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "jed": {
+        "LightBrightness": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "SkyBlend": 1.0,
+        "CanSleepHere": "bed_explodes",
+        "CanDoLightning": false,
+        "CanDoRainSnowIce": false,
+        "CanSpawnPeacefulMobs": false,
+        "CanSpawnHostiles": false,
+        "DisableDawnDuskColors": true,
+        "HasXZFog": true,
+        "SkyRenderType": 1,
+        "SkyDisableFlags": 7,
+        "SkyColor": "fcfcfc",
+        "FogColor": "fcfcfc",
+        "CloudColor": "7EC0EE",
+        "CloudHeight": "84"
+      },
+      "worldinfo_onetime": {
+        "DayTime": 1000,
+        "generatorName": "flat",
+        "generatorOptions": "3;dimdoors:ancient_fabric,32*dimdoors:fabric;159",
+        "GameRules": {
+          "doMobSpawning": false,
+          "doDaylightCycle": false
+        }
+      }
+    }
+  ]
+}
