@@ -5,26 +5,6 @@
   },
   "dimensions": [
     {
-      "dim": 2,
-      "override": true,
-      "dimensiontype": {
-        "id": 2,
-        "name": "overworld",
-        "suffix": "DIM_0",
-        "keeploaded": true,
-        "worldprovider": "WorldProviderSurface",
-        "require_exact_match": true
-      },
-      "jed": {
-        "CanRespawnHere": false,
-        "RespawnDimension": 0
-      },
-      "worldinfo_onetime": {
-        "generatorName": "BIOMESOP",
-        "generatorVersion": 1
-      }
-    },
-    {
       "dim": 0,
       "override": true,
       "biome": "dimdoors:white_void",
@@ -32,7 +12,7 @@
         "id": 0,
         "name": "antivoid",
         "suffix": "_void",
-        "keeploaded": false,
+        "keeploaded": true,
         "worldprovider": "WorldProviderSurfaceJED",
         "require_exact_match": true
       },
@@ -78,6 +58,48 @@
           "doMobSpawning": false,
           "doDaylightCycle": false
         }
+      }
+    },
+    {
+      "dim": 2,
+      "override": true,
+      "dimensiontype": {
+        "id": 2,
+        "name": "overworld",
+        "suffix": "DIM_0",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurface",
+        "require_exact_match": true
+      },
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 0
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP",
+        "generatorVersion": 1,
+        "RandomSeed": ""
+      }
+    },
+    {
+      "dim": 4,
+      "override": true,
+      "dimensiontype": {
+        "id": 2,
+        "name": "overworld",
+        "suffix": "DIM_0",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurface",
+        "require_exact_match": true
+      },
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 0
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP",
+        "generatorVersion": 1,
+        "RandomSeed": ""
       }
     }
   ]

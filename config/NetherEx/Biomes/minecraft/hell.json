@@ -55,6 +55,22 @@
       "minGroupCount": 4,
       "maxGroupCount": 4,
       "spawn": true
+    },
+    {
+      "entity": "minecraft:blaze",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "quark:wraith",
+      "creatureType": "monster",
+      "weight": 60,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
     }
   ],
   "features": [
