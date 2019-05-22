@@ -36,15 +36,17 @@
           1
         ],
         "SkyBlend": 1.0,
-        "CanSleepHere": "bed_explodes",
+        "CanRespawnHere": true,
         "CanDoLightning": false,
         "CanDoRainSnowIce": false,
         "CanSpawnPeacefulMobs": false,
         "CanSpawnHostiles": false,
         "DisableDawnDuskColors": true,
         "HasXZFog": true,
-        "SkyRenderType": 1,
-        "SkyDisableFlags": 7,
+        "MovementFactor": 64,
+        "WeatherRenderer": "DummyRenderer",
+        "SkyRenderer": "DummyRenderer",
+        "IsSurfaceWorld": false,
         "SkyColor": "fcfcfc",
         "FogColor": "fcfcfc",
         "CloudColor": "7EC0EE",
@@ -56,7 +58,8 @@
         "generatorOptions": "3;dimdoors:ancient_fabric,32*dimdoors:fabric;159",
         "GameRules": {
           "doMobSpawning": false,
-          "doDaylightCycle": false
+          "doDaylightCycle": false,
+           "spawnRadius": "70"
         }
       }
     },
@@ -68,7 +71,7 @@
         "name": "overworld",
         "suffix": "DIM_0",
         "keeploaded": false,
-        "worldprovider": "WorldProviderSurface",
+        "worldprovider": "WorldProviderSurfaceJED",
         "require_exact_match": true
       },
       "jed": {
@@ -78,29 +81,94 @@
       "worldinfo_onetime": {
         "generatorName": "BIOMESOP",
         "generatorVersion": 1,
-        "RandomSeed": ""
+        "RandomSeed": "",
+        "GameRules": {
+          "doMobSpawning": true,
+          "doDaylightCycle": true
+        }
       }
     },
     {
-      "dim": 4,
-      "override": true,
-      "dimensiontype": {
-        "id": 2,
-        "name": "overworld",
-        "suffix": "DIM_0",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurface",
-        "require_exact_match": true
-      },
-      "jed": {
-        "CanRespawnHere": false,
-        "RespawnDimension": 0
-      },
-      "worldinfo_onetime": {
-        "generatorName": "BIOMESOP",
-        "generatorVersion": 1,
-        "RandomSeed": ""
-      }
-    }
+            "dim": 1,
+            "worldinfo_onetime": {
+            "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 684,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 685,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 686,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 687,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 688,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": -1,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 7,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        },
+        {
+            "dim": 4,
+            "worldinfo_onetime": { "RandomSeed": "",
+            "GameRules": {
+                "doMobSpawning": true,
+                "doDaylightCycle": true
+                }
+            }
+        }
   ]
 }
