@@ -55,7 +55,7 @@
       "worldinfo_onetime": {
         "DayTime": 1000,
         "generatorName": "flat",
-        "generatorOptions": "3;dimdoors:ancient_fabric,32*dimdoors:fabric;159",
+        "generatorOptions": "3;dimdoors:ancient_fabric,45*dimdoors:fabric;159",
         "GameRules": {
           "doMobSpawning": false,
           "doDaylightCycle": false,
@@ -162,7 +162,7 @@
             }
         },
         {
-            "dim": 4,
+            "dim": 3,
             "worldinfo_onetime": { "RandomSeed": "",
             "GameRules": {
                 "doMobSpawning": true,
