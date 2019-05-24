@@ -11,6 +11,8 @@ https://minecraft.curseforge.com/projects/patchouli
 https://minecraft.curseforge.com/projects/lemonlib
     https://minecraft.curseforge.com/projects/lemonlib/files/2639879
 https://minecraft.curseforge.com/projects/reborncore/
+https://minecraft.curseforge.com/projects/modelloader
+https://minecraft.curseforge.com/projects/shadowfacts-forgelin
 
 https://minecraft.curseforge.com/projects/randompatches
 https://minecraft.curseforge.com/projects/randomportals
@@ -59,6 +61,7 @@ https://minecraft.curseforge.com/projects/more-player-models
 https://minecraft.curseforge.com/projects/sound-filters
 https://minecraft.curseforge.com/projects/colytra
 https://minecraft.curseforge.com/projects/wall-jump
+https://minecraft.curseforge.com/projects/worldborder-forge
 
 https://minecraft.curseforge.com/projects/pams-harvestcraft
 https://minecraft.curseforge.com/projects/spice-of-life-carrot-edition
