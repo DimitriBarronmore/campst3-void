@@ -71,7 +71,7 @@
         "name": "overworld",
         "suffix": "DIM_0",
         "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED",
+        "worldprovider": "WorldProviderSurface",
         "require_exact_match": true
       },
       "jed": {

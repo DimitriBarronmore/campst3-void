@@ -1,5 +1,6 @@
 import requests
 from os import listdir
+from os import remove
 
 def dlfile(url):
     a = requests.get(url)
@@ -8,7 +9,6 @@ def dlfile(url):
     total_size = int(r.headers.get('content-length', 0)); 
     block_size = 1024
     wrote = 0
-    toWriteInst.append(url[url.rfind("/")+1:] + '\n\n')
     with open(url[url.rfind("/")+1:], 'wb') as f:
         print("downloaded " + url[url.rfind("/")+1:])
         for data in r.iter_content(block_size):
@@ -19,33 +19,40 @@ def dlfile(url):
         print("hey wait something went wrong with " + url[url.rfind("/")+1:])
 
     
-if "installed.txt" not in listdir("."):
-    inst = open('installed.txt', 'w')
-    inst.close()
-
 inst = open('installed.txt', 'r')
-installed = inst.read().replace("\r\n","\n").split("\n")
+installed = inst.read().split("\n")
 inst.close()
 
-toWriteInst = []
+new_list = ["{0}\n".format(item, index)
+            for (index, item) in enumerate(installed)]
+
+toWriteInst = new_list
 
 m = open('mods.txt', 'r')
 mods = m.read().replace("\r\n"  ,"\n").split("\n")
 
 for i in range(0,len(mods)):
     x = mods[i]
-    if "files/" in x or x in installed:
+    if "files/" in x:
         continue
     if i < len(mods)-1:
-        a = requests.get(mods[i])
-        txt = a.text
-        toWriteInst.append(x+'\n')
-        toWriteInst.append(txt[txt.find('og:description')+25 : txt.find('og:url')-22]+'\n')
         if x not in mods[i+1]:
-            dlfile(x + "/files/latest")
-        else:
-            dlfile(mods[i+1] + "/download")
+            index = installed[installed.index(x)+2]
+            a = requests.get(x + "/files/latest")
+            url = str(a.url)
+            r = requests.get(url, stream=True)
+            latest = (url[url.rfind("/")+1:])
+            print(x)
+            if index == latest:
+                print("up to date!")
+                continue
+            else:
+                print("newer version available...")
+                remove(index)
+                toWriteInst[installed.index(index)] = latest + '\n'
+                dlfile(x + "/files/latest")
 
-inst = open('installed.txt', 'a')
+
+inst = open('installed.txt', 'w')
 inst.writelines(toWriteInst)
 inst.close()
