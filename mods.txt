@@ -78,7 +78,6 @@ https://minecraft.curseforge.com/projects/cc-tweaked/files/2719214
 https://minecraft.curseforge.com/projects/roguelike-dungeons
 
 https://minecraft.curseforge.com/projects/iron-chests/files/2721036
-https://minecraft.curseforge.com/projects/craftpresence/files/2716967
 https://minecraft.curseforge.com/projects/botania/files/2698039
 https://minecraft.curseforge.com/projects/storage-drawers
 https://minecraft.curseforge.com/projects/inventory-tweaks
