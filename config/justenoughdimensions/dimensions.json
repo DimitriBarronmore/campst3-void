@@ -10,7 +10,7 @@
       "biome": "dimdoors:white_void",
       "dimensiontype": {
         "id": 0,
-        "name": "antivoid",
+        "name": "void",
         "suffix": "_void",
         "keeploaded": true,
         "worldprovider": "WorldProviderSurfaceJED",
@@ -39,27 +39,24 @@
         "CanRespawnHere": true,
         "CanDoLightning": false,
         "CanDoRainSnowIce": false,
-        "CanSpawnPeacefulMobs": false,
+        "CanSpawnPeacefulMobs": true,
         "CanSpawnHostiles": false,
         "DisableDawnDuskColors": true,
         "HasXZFog": true,
-        "MovementFactor": 64,
+        "MovementFactor": 0,
         "WeatherRenderer": "DummyRenderer",
-        "SkyRenderer": "DummyRenderer",
         "IsSurfaceWorld": false,
-        "SkyColor": "fcfcfc",
-        "FogColor": "fcfcfc",
-        "CloudColor": "7EC0EE",
-        "CloudHeight": "84"
+        "SkyColor": "2e3035",
+        "FogColor": "2e3035"
       },
       "worldinfo_onetime": {
-        "DayTime": 1000,
+        "DayTime": 1500,
         "generatorName": "flat",
-        "generatorOptions": "3;dimdoors:ancient_fabric,64*dimdoors:fabric;159",
+        "generatorOptions": "3;dimdoors:ancient_fabric,64*dimdoors:fabric:7;1",
         "GameRules": {
-          "doMobSpawning": false,
           "doDaylightCycle": false,
-           "spawnRadius": "70"
+          "spawnRadius": "70",
+          "mobGriefing": false
         }
       }
     },

@@ -1,13 +1,6 @@
 {
   "version": 2,
   "data": {
-    "aether:aether_arctic_peaks": "MOUNTAINS_NAKED",
-    "aether:aether_forgotten_highlands": "PLAINS",
-    "aether:aether_highlands": "PLAINS",
-    "aether:aether_irradiated_forests": "DENSE_FOREST",
-    "aether:aether_magnetic_hills": "HILLS",
-    "aether:aether_void": "PLAINS",
-    "aether:instanced_zone": "PLAINS",
     "biomesoplenty:alps": "MOUNTAINS_NAKED",
     "biomesoplenty:alps_foothills": "SNOW_PINES",
     "biomesoplenty:bamboo_forest": "JUNGLE",
@@ -211,7 +204,6 @@
     "twilightforest:twilight_lake": "WATER",
     "twilightforest:twilight_stream": "WATER",
     "twilightforest:twilight_swamp": "SWAMP",
-    "vampirism:vampireforest": "DENSE_FOREST",
-    "yurtmod:tent": "PLAINS"
+    "vampirism:vampireforest": "DENSE_FOREST"
   }
 }

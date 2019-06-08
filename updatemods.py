@@ -1,5 +1,10 @@
-import requests
 import os
+def install(package):
+    subprocess.call([sys.executable, "-m", "pip", "install", package])
+try:
+    import requests
+except ModuleNotFoundError:
+    install("requests")
 
 if not os.path.exists("mods/"):
     os.mkdir("mods/")

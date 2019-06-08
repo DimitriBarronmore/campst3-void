@@ -1,14 +1,15 @@
 https://minecraft.curseforge.com/projects/baubles
 https://minecraft.curseforge.com/projects/lemonlib/files/2639879
 https://minecraft.curseforge.com/projects/shadowfacts-forgelin
-https://minecraft.curseforge.com/projects/modelloader
 https://minecraft.curseforge.com/projects/libraryex
 https://minecraft.curseforge.com/projects/autoreglib
 https://minecraft.curseforge.com/projects/applecore
 https://minecraft.curseforge.com/projects/orelib
+https://minecraft.curseforge.com/projects/chameleon
 
 https://minecraft.curseforge.com/projects/coroutil
 https://minecraft.curseforge.com/projects/llibrary
+https://minecraft.curseforge.com/projects/ctm
 
 
 https://minecraft.curseforge.com/projects/project-vibrant-journeys
@@ -20,7 +21,6 @@ https://minecraft.curseforge.com/projects/biomes-o-plenty
 https://minecraft.curseforge.com/projects/dimensionaldoors
 https://minecraft.curseforge.com/projects/the-twilight-forest
 https://minecraft.curseforge.com/projects/defiled-lands
-
 https://minecraft.curseforge.com/projects/just-enough-dimensions/files/2707661
 https://minecraft.curseforge.com/projects/randomportals/files/2715959
 https://minecraft.curseforge.com/projects/randompatches
@@ -28,7 +28,6 @@ https://minecraft.curseforge.com/projects/randompatches
 https://minecraft.curseforge.com/projects/dynamic-surroundings
 https://minecraft.curseforge.com/projects/serene-seasons
 https://minecraft.curseforge.com/projects/sound-filters
-
 https://minecraft.curseforge.com/projects/sophisticated-wolves
 https://minecraft.curseforge.com/projects/exotic-birds
 https://minecraft.curseforge.com/projects/bloodmoon
@@ -39,7 +38,7 @@ https://minecraft.curseforge.com/projects/nether-chest
 https://minecraft.curseforge.com/projects/hammerx
 https://minecraft.curseforge.com/projects/antique-atlas
 https://minecraft.curseforge.com/projects/charm/files/2718902
-https://minecraft.curseforge.com/projects/quark/files/2716918
+https://minecraft.curseforge.com/projects/quark/files/2719857
 https://minecraft.curseforge.com/projects/quark-oddities
 
 https://minecraft.curseforge.com/projects/outfox
@@ -68,13 +67,23 @@ https://minecraft.curseforge.com/projects/thaumcraft/files/2629023
 https://minecraft.curseforge.com/projects/astral-sorcery
 https://minecraft.curseforge.com/projects/embers-rekindled
 https://minecraft.curseforge.com/projects/corvus
-
 https://minecraft.curseforge.com/projects/railcraft
 https://minecraft.curseforge.com/projects/immersive-engineering
-https://minecraft.curseforge.com/projects/opencomputers
-https://minecraft.curseforge.com/projects/magneticraft
 
 https://minecraft.curseforge.com/projects/redstone-paste
 https://minecraft.curseforge.com/projects/progressive-automation-early-miner
+https://minecraft.curseforge.com/projects/crafting-automat/files/2700874
+https://minecraft.curseforge.com/projects/cc-tweaked/files/2719214
 
 https://minecraft.curseforge.com/projects/roguelike-dungeons
+
+https://minecraft.curseforge.com/projects/iron-chests/files/2721036
+https://minecraft.curseforge.com/projects/craftpresence/files/2716967
+https://minecraft.curseforge.com/projects/botania/files/2698039
+https://minecraft.curseforge.com/projects/storage-drawers
+https://minecraft.curseforge.com/projects/inventory-tweaks
+https://minecraft.curseforge.com/projects/bibliocraft
+https://minecraft.curseforge.com/projects/hwyla/files/2568751
+https://minecraft.curseforge.com/projects/cosmetic-armor-reworked/files/2697672
+https://minecraft.curseforge.com/projects/chisel
+https://minecraft.curseforge.com/projects/unlimited-chisel-works

@@ -1,5 +1,12 @@
-import requests
+import subprocess
+import sys
 import os
+def install(package):
+    subprocess.call([sys.executable, "-m", "pip", "install", package])
+try:
+    import requests
+except ModuleNotFoundError:
+    install("requests")
 
 global toWriteInst
 toWriteInst = []
