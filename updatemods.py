@@ -5,6 +5,7 @@ try:
     import requests
 except ModuleNotFoundError:
     install("requests")
+    import requests
 
 if not os.path.exists("mods/"):
     os.mkdir("mods/")
@@ -47,8 +48,7 @@ new_list = ["{0}\n".format(item, index)
 
 toWriteInst = new_list #preserve newlines
 
-m = open('mods.txt', 'r')
-mods = m.read().replace("\r\n"  ,"\n").split("\n") #load modlist
+mods = requests.get("https://raw.githubusercontent.com/DimitriBarronmore/campst3-void/master/mods.txt").text.replace("\r\n"  ,"\n").split("\n")
 
 cropped_mods = [] #crop filters, newlines, comments
 for i in range(0,len(mods)):
