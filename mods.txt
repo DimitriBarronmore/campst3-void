@@ -7,6 +7,8 @@ https://minecraft.curseforge.com/projects/applecore/files/2679415
 https://minecraft.curseforge.com/projects/orelib/files/2664386
 https://minecraft.curseforge.com/projects/chameleon/files/2450900
 https://minecraft.curseforge.com/projects/ctm/files/2642375
+https://minecraft.curseforge.com/projects/llibrary/files/2704186
+https://minecraft.curseforge.com/projects/coroutil/files/2686381
 
 https://minecraft.curseforge.com/projects/project-vibrant-journeys/files/2702085
 https://minecraft.curseforge.com/projects/traverse/files/2613657
@@ -71,7 +73,7 @@ https://minecraft.curseforge.com/projects/cc-tweaked/files/2719214
 https://minecraft.curseforge.com/projects/iron-chests/files/2721036
 https://minecraft.curseforge.com/projects/botania/files/2698039
 https://minecraft.curseforge.com/projects/storage-drawers/files/2642386
-https://minecraft.curseforge.com/projects/inventory-tweaks/files/2315240
+https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481
 https://minecraft.curseforge.com/projects/bibliocraft/files/2574880
 https://minecraft.curseforge.com/projects/hwyla/files/2568751
 https://minecraft.curseforge.com/projects/cosmetic-armor-reworked/files/2697672
